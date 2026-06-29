@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.kt2ts",
+    "module": "kt2ts-ksp-generator",
+    "version": "0.0.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "kt2ts-ksp-generator-0.0.20.jar",
+          "url": "kt2ts-ksp-generator-0.0.20.jar",
+          "size": 103504,
+          "sha512": "55890ef14fcccd245df4d5206d45c6f88884136a2fbfd617e286de2f3b555be47baa4a1d6b4e69f699c89680339f24f6dbf2a7f274158d415cc6c665726c7e22",
+          "sha256": "b986181aac12bf85cbf12a0049d29fa19ee9dfbdf231e91053bb75e3a0d7f32d",
+          "sha1": "e580ce91cf6a4962dec05da3b6da787d673f0c8f",
+          "md5": "7e78b456738d8a2e050dbf413a5dbf68"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.8.21"
+          }
+        },
+        {
+          "group": "io.github.kt2ts",
+          "module": "kt2ts-annotation",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "symbol-processing-api",
+          "version": {
+            "requires": "1.8.21-1.0.11"
+          }
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20230227"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kt2ts-ksp-generator-0.0.20.jar",
+          "url": "kt2ts-ksp-generator-0.0.20.jar",
+          "size": 103504,
+          "sha512": "55890ef14fcccd245df4d5206d45c6f88884136a2fbfd617e286de2f3b555be47baa4a1d6b4e69f699c89680339f24f6dbf2a7f274158d415cc6c665726c7e22",
+          "sha256": "b986181aac12bf85cbf12a0049d29fa19ee9dfbdf231e91053bb75e3a0d7f32d",
+          "sha1": "e580ce91cf6a4962dec05da3b6da787d673f0c8f",
+          "md5": "7e78b456738d8a2e050dbf413a5dbf68"
+        }
+      ]
+    }
+  ]
+}
