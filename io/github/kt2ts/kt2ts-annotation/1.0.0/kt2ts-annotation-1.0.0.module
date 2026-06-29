@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.kt2ts",
+    "module": "kt2ts-annotation",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kt2ts-annotation-1.0.0.jar",
+          "url": "kt2ts-annotation-1.0.0.jar",
+          "size": 1220,
+          "sha512": "b7c1e6a4b4a573b8a86cef29cfa62c492172b30e570ee6a1fa5359a2d3d08bf4721852cd773111e7d6f2738efdd36f2aadba052aaecae95b1661ebd5450aaabb",
+          "sha256": "08abccabdf01ac6f31aa776fc9d7f58975263088bb8bef32bdb117eb15521b67",
+          "sha1": "0cd96585bcbd9f7c169bb38ded1f0cc7b67a1470",
+          "md5": "35b62ef23b582c02489e41989a307735"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kt2ts-annotation-1.0.0.jar",
+          "url": "kt2ts-annotation-1.0.0.jar",
+          "size": 1220,
+          "sha512": "b7c1e6a4b4a573b8a86cef29cfa62c492172b30e570ee6a1fa5359a2d3d08bf4721852cd773111e7d6f2738efdd36f2aadba052aaecae95b1661ebd5450aaabb",
+          "sha256": "08abccabdf01ac6f31aa776fc9d7f58975263088bb8bef32bdb117eb15521b67",
+          "sha1": "0cd96585bcbd9f7c169bb38ded1f0cc7b67a1470",
+          "md5": "35b62ef23b582c02489e41989a307735"
+        }
+      ]
+    }
+  ]
+}
